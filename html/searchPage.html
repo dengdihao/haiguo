@@ -1,0 +1,2991 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>搜索页</title>
+    <link rel="stylesheet" href="../css/resize.css"/>
+    <link rel="stylesheet" href="../css/index.css"/>
+    <link rel="stylesheet" href="../css/searchPage.css"/>
+    <script src="../js/jquery-3.1.0.min.js"></script>
+    <script src="../js/index.js"></script>
+</head>
+<body>
+<!--topSearch-->
+<div class="site_channel_top" style="height: 73px;">
+    <div class="site_head">
+        <div class="head_inner" style="width:1140px;">
+            <a class="site_logo">
+            </a>
+
+            <div class="mod_search" style="margin-left: -320px;height: 46px;line-height: 46px;width: 600px;border: 2px solid #ff6428;
+    border-radius: 25px;">
+                <form class="searchForm">
+                    <div class="searchForm_inner">
+                        <input type="text" placeholder="战狼" class="search_input">
+                    </div>
+                    <button class="search_btn hander" style="height: 46px;">
+                        <i class="icon icon_search"></i>
+                        <span>全网搜</span>
+                    </button>
+                </form>
+            </div>
+           
+            <div class="mod_smartbox hide">
+                <!-- 历史记录 -->
+                <div class="sb_history">
+                    <div class="sb_head">
+                        <div class="sb_title">历史记录</div>
+                        <div class="sb_tools">
+                            <a href="#" class="sb_del">
+                                <i class="icon_sm icon_trash_sm"></i>
+                                <span class="icon_text">清除历史记录</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="sb_body"></div>
+                </div>
+                <!--热门搜索  -->
+                <div class="sb_hot ">
+                    <div class="sb_head">
+                        <div class="sb_title">热门搜索</div>
+                        <div class="sb_tools">
+                            <a href="#" class="sb_del">
+                                <span>更多搜索</span>
+                                <i class="icon_sm icon_right_sm"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="sb_body">
+                        <div class="sb_item sb_item_1">
+                            <a href="#">
+                                <span class="sb_num">1</span>
+                                <span class="sb_name">战狼2</span>
+                            </a>
+                        </div>
+                        <div class="sb_item sb_item_2">
+                            <a href="#">
+                                <span class="sb_num">2</span>
+                                <span class="sb_name">战狼2</span>
+                            </a>
+                        </div>
+                        <div class="sb_item sb_item_3">
+                            <a href="#">
+                                <span class="sb_num">3</span>
+                                <span class="sb_name">战狼2</span>
+                            </a>
+                        </div>
+                        <div class="sb_item sb_item_4">
+                            <a href="#">
+                                <span class="sb_num">4</span>
+                                <span class="sb_name">战狼2</span>
+                            </a>
+                        </div>
+                        <div class="sb_item sb_item_5">
+                            <a href="#">
+                                <span class="sb_num">5</span>
+                                <span class="sb_name">战狼2</span>
+                            </a>
+                        </div>
+                        <div class="sb_item sb_item_6">
+                            <a href="#">
+                                <span class="sb_num">6</span>
+                                <span class="sb_name">战狼2</span>
+                            </a>
+                        </div>
+                        <div class="sb_item sb_item_7">
+                            <a href="#">
+                                <span class="sb_num">7</span>
+                                <span class="sb_name">战狼2</span>
+                            </a>
+                        </div>
+                        <div class="sb_item sb_item_8">
+                            <a href="#">
+                                <span class="sb_num">8</span>
+                                <span class="sb_name">战狼2</span>
+                            </a>
+                        </div>
+                        <div class="sb_item sb_item_8">
+                            <a href="#">
+                                <span class="sb_num">9</span>
+                                <span class="sb_name">战狼2</span>
+                            </a>
+                        </div>
+
+                        <div class="sb_item sb_item_8">
+                            <a href="#">
+                                <span class="sb_num">10</span>
+                                <span class="sb_name">战狼2</span>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- 搜索结果 -->
+                <div class="sb_suggest _suggest hide">
+                    <div class="sb_item sb_item_rich">
+                        <a href="#" class="sb_title">
+							<span class="sb_hl">
+								我的前半生
+							</span>
+                            <span class="sb_sub">电视就</span>
+                        </a>
+						<span class="sb_fold_sign">
+							<i class="icon_sm icon_down_sm"></i>
+							<i class="icon_sm icon_up_sm"></i>
+						</span>
+
+                        <div class="sb_richbox">
+                            <a href="#" class="sb_link">
+                                <img src="../img/history1.jpg" class="sb_pic">
+                            </a>
+                            <span class="sb_desc">全67集</span>
+                            <span class="sb_desc">主演：赵丽颖 林更新 窦骁</span>
+                            <a href="#" class="sb_btn _through">立即播放</a>
+                        </div>
+                    </div>
+                    <div class="sb_item sb_item_rich">
+                        <a href="#" class="sb_title">
+							<span class="sb_hl">
+								我的前半生
+							</span>
+                            <span class="sb_sub">电视就</span>
+                        </a>
+						<span class="sb_fold_sign">
+							<i class="icon_sm icon_down_sm"></i>
+							<i class="icon_sm icon_up_sm"></i>
+						</span>
+
+                        <div class="sb_richbox">
+                            <a href="#" class="sb_link">
+                                <img src="../img/history1.jpg" class="sb_pic">
+                            </a>
+                            <span class="sb_desc">全67集</span>
+                            <span class="sb_desc">主演：赵丽颖 林更新 窦骁</span>
+                            <a href="#" class="sb_btn _through">立即播放</a>
+                        </div>
+                    </div>
+                    <div class="sb_item sb_item_rich">
+                        <a href="#" class="sb_title">
+							<span class="sb_hl">
+								我的前半生
+							</span>
+                            <span class="sb_sub">电视就</span>
+                        </a>
+						<span class="sb_fold_sign">
+							<i class="icon_sm icon_down_sm"></i>
+							<i class="icon_sm icon_up_sm"></i>
+						</span>
+
+                        <div class="sb_richbox">
+                            <a href="#" class="sb_link">
+                                <img src="../img/history1.jpg" class="sb_pic">
+                            </a>
+                            <span class="sb_desc">全67集</span>
+                            <span class="sb_desc">主演：赵丽颖 林更新 窦骁</span>
+                            <a href="#" class="sb_btn _through">立即播放</a>
+                        </div>
+                    </div>
+                    <div class="sb_item sb_item_rich">
+                        <a href="#" class="sb_title">
+							<span class="sb_hl">
+								我的前半生
+							</span>
+                            <span class="sb_sub">电视就</span>
+                        </a>
+						<span class="sb_fold_sign">
+							<i class="icon_sm icon_down_sm"></i>
+							<i class="icon_sm icon_up_sm"></i>
+						</span>
+
+                        <div class="sb_richbox">
+                            <a href="#" class="sb_link">
+                                <img src="../img/history1.jpg" class="sb_pic">
+                            </a>
+                            <span class="sb_desc">全67集</span>
+                            <span class="sb_desc">主演：赵丽颖 林更新 窦骁</span>
+                            <a href="#" class="sb_btn _through">立即播放</a>
+                        </div>
+                    </div>
+                    <div class="sb_item sb_item_rich">
+                        <a href="#" class="sb_title">
+							<span class="sb_hl">
+								我的前半生
+							</span>
+                            <span class="sb_sub">电视就</span>
+                        </a>
+						<span class="sb_fold_sign">
+							<i class="icon_sm icon_down_sm"></i>
+							<i class="icon_sm icon_up_sm"></i>
+						</span>
+
+                        <div class="sb_richbox">
+                            <a href="#" class="sb_link">
+                                <img src="../img/history1.jpg" class="sb_pic">
+                            </a>
+                            <span class="sb_desc">全67集</span>
+                            <span class="sb_desc">主演：赵丽颖 林更新 窦骁</span>
+                            <a href="#" class="sb_btn _through">立即播放</a>
+                        </div>
+                    </div>
+                    <div class="sb_item sb_item_rich">
+                        <a href="#" class="sb_title">
+							<span class="sb_hl">
+								我的前半生
+							</span>
+                            <span class="sb_sub">电视就</span>
+                        </a>
+						<span class="sb_fold_sign">
+							<i class="icon_sm icon_down_sm"></i>
+							<i class="icon_sm icon_up_sm"></i>
+						</span>
+
+                        <div class="sb_richbox">
+                            <a href="#" class="sb_link">
+                                <img src="../img/history1.jpg" class="sb_pic">
+                            </a>
+                            <span class="sb_desc">全67集</span>
+                            <span class="sb_desc">主演：赵丽颖 林更新 窦骁</span>
+                            <a href="#" class="sb_btn _through">立即播放</a>
+                        </div>
+                    </div>
+
+                    <div class="sb_item sb_item_rich">
+                        <a href="#" class="sb_title">
+							<span class="sb_hl">
+								我的前半生
+							</span>
+                            <span class="sb_sub">电视就</span>
+                        </a>
+						<span class="sb_fold_sign">
+							<i class="icon_sm icon_down_sm"></i>
+							<i class="icon_sm icon_up_sm"></i>
+						</span>
+
+                        <div class="sb_richbox">
+                            <a href="#" class="sb_link">
+                                <img src="../img/history1.jpg" class="sb_pic">
+                            </a>
+                            <span class="sb_desc">全67集</span>
+                            <span class="sb_desc">主演：赵丽颖 林更新 窦骁</span>
+                            <a href="#" class="sb_btn _through">立即播放</a>
+                        </div>
+                    </div>
+                    <div class="sb_item sb_item_rich">
+                        <a href="#" class="sb_title">
+							<span class="sb_hl">
+								我的前半生
+							</span>
+                            <span class="sb_sub">电视就</span>
+                        </a>
+						<span class="sb_fold_sign">
+							<i class="icon_sm icon_down_sm"></i>
+							<i class="icon_sm icon_up_sm"></i>
+						</span>
+
+                        <div class="sb_richbox">
+                            <a href="#" class="sb_link">
+                                <img src="../img/history1.jpg" class="sb_pic">
+                            </a>
+                            <span class="sb_desc">全67集</span>
+                            <span class="sb_desc">主演：赵丽颖 林更新 窦骁</span>
+                            <a href="#" class="sb_btn _through">立即播放</a>
+                        </div>
+                    </div>
+                    <div class="sb_item sb_item_rich">
+                        <a href="#" class="sb_title">
+							<span class="sb_hl">
+								我的前半生
+							</span>
+                            <span class="sb_sub">电视就</span>
+                        </a>
+						<span class="sb_fold_sign">
+							<i class="icon_sm icon_down_sm"></i>
+							<i class="icon_sm icon_up_sm"></i>
+						</span>
+
+                        <div class="sb_richbox">
+                            <a href="#" class="sb_link">
+                                <img src="../img/history1.jpg" class="sb_pic">
+                            </a>
+                            <span class="sb_desc">全67集</span>
+                            <span class="sb_desc">主演：赵丽颖 林更新 窦骁</span>
+                            <a href="#" class="sb_btn _through">立即播放</a>
+                        </div>
+                    </div>
+                    <div class="sb_item sb_item_rich">
+                        <a href="#" class="sb_title">
+							<span class="sb_hl">
+								我的前半生
+							</span>
+                            <span class="sb_sub">电视就</span>
+                        </a>
+						<span class="sb_fold_sign">
+							<i class="icon_sm icon_down_sm"></i>
+							<i class="icon_sm icon_up_sm"></i>
+						</span>
+
+                        <div class="sb_richbox">
+                            <a href="#" class="sb_link">
+                                <img src="../img/history1.jpg" class="sb_pic">
+                            </a>
+                            <span class="sb_desc">全67集</span>
+                            <span class="sb_desc">主演：赵丽颖 林更新 窦骁</span>
+                            <a href="#" class="sb_btn _through">立即播放</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="site_head_nav_box">
+            <div class="site_head_nav ">
+                <div class="head_nav_inner">
+                    <div class="nav_cell">
+                        <span class="nav_bg" style="background-image: url('../img/nav_list1.jpg');"></span>
+                        <a href="#" class="nav_link">电视剧</a>
+                    </div>
+                    <div class="nav_cell">
+                        <span class="nav_bg" style="background-image: url('../img/nav_list1.jpg');"></span>
+                        <a href="#" class="nav_link">电视剧</a>
+                    </div>
+                    <div class="nav_cell">
+                        <span class="nav_bg" style="background-image: url('../img/nav_list1.jpg');"></span>
+                        <a href="#" class="nav_link">电视剧</a>
+                    </div>
+                    <div class="nav_cell">
+                        <span class="nav_bg" style="background-image: url('../img/nav_list1.jpg');"></span>
+                        <a href="#" class="nav_link">电视剧</a>
+                    </div>
+                    <div class="nav_cell">
+                        <span class="nav_bg" style="background-image: url('../img/nav_list1.jpg');"></span>
+                        <a href="#" class="nav_link">电视剧</a>
+                    </div>
+                    <div class="nav_cell">
+                        <span class="nav_bg" style="background-image: url('../img/nav_list1.jpg');"></span>
+                        <a href="#" class="nav_link">电视剧</a>
+                    </div>
+                    <div class="nav_cell">
+                        <span class="nav_bg" style="background-image: url('../img/nav_list1.jpg');"></span>
+                        <a href="#" class="nav_link">电视剧</a>
+                    </div>
+                    <div class="nav_cell">
+                        <span class="nav_bg" style="background-image: url('../img/nav_list1.jpg');"></span>
+                        <a href="#" class="nav_link">电视剧</a>
+                    </div>
+                    <div class="nav_cell">
+                        <span class="nav_bg" style="background-image: url('../img/nav_list1.jpg');"></span>
+                        <a href="#" class="nav_link">电视剧</a>
+                    </div>
+                    <div class="nav_cell">
+                        <span class="nav_bg" style="background-image: url('../img/nav_list1.jpg');"></span>
+                        <a href="#" class="nav_link">电视剧</a>
+                    </div>
+                    <div class="nav_cell">
+                        <span class="nav_bg" style="background-image: url('../img/nav_list1.jpg');"></span>
+                        <a href="#" class="nav_link">电视剧</a>
+                    </div>
+                    <div class="nav_cell">
+                        <span class="nav_bg" style="background-image: url('../img/nav_list1.jpg');"></span>
+                        <a href="#" class="nav_link">电视剧</a>
+                    </div>
+                    <div class="nav_cell">
+                        <span class="nav_bg" style="background-image: url('../img/nav_list1.jpg');"></span>
+                        <a href="#" class="nav_link">电视剧</a>
+                    </div>
+                    <div class="nav_cell">
+                        <span class="nav_bg" style="background-image: url('../img/nav_list1.jpg');"></span>
+                        <a href="#" class="nav_link">电视剧</a>
+                    </div>
+                    <div class="nav_cell">
+                        <span class="nav_bg" style="background-image: url('../img/nav_list1.jpg');"></span>
+                        <a href="#" class="nav_link">电视剧</a>
+                    </div>
+                    <div class="nav_cell">
+                        <span class="nav_bg" style="background-image: url('../img/nav_list1.jpg');"></span>
+                        <a href="#" class="nav_link">电视剧</a>
+                    </div>
+                    <div class="nav_cell">
+                        <span class="nav_bg" style="background-image: url('../img/nav_list1.jpg');"></span>
+                        <a href="#" class="nav_link">电视剧</a>
+                    </div>
+                    <div class="nav_cell">
+                        <span class="nav_bg" style="background-image: url('../img/nav_list1.jpg');"></span>
+                        <a href="#" class="nav_link">电视剧</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--mindContent-->
+<div class="search_container">
+    <!-- nav-->
+    <div class="search_tools">
+        <div class="mod_filter" r-notemplate="true">
+            <div class="filter_item current">
+                <a href="javascript:;" data-key="sort" data-val="0" _stat="pages_index:sort_sort_相关">相关</a>
+            </div>
+            <div class="filter_item">
+                <a href="javascript:;" data-key="sort" data-val="1" _stat="pages_index:sort_sort_最新">最新</a>
+            </div>
+            <div class="filter_item">
+                <a href="javascript:;" data-key="sort" data-val="2" _stat="pages_index:sort_sort_最热">最热</a>
+            </div>
+            <div class="filter_item filter_item_more">
+                <a href="javascript:;" _stat="pages_index:sort_more">
+                    <span class="icon_text">筛选</span>
+                    <i class="iconfont arrow_down">∨</i>
+                    <i class="iconfont arrow_up">∧</i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--content -->
+    <div class="wrapper">
+        <!-- left-->
+        <div class="wrapper_main">
+            <div class="mod_filter_box none" r-notemplate="true">
+                <div class="fix_arrow"><span></span></div>
+                <div class="fix_bg"></div>
+                <div class="filter_line">
+                    <span class="label">发布时间</span>
+
+                    <div class="filter_content">
+
+                        <a href="javascript:;" class="item current" data-key="pubfilter" data-val="0"
+                           _stat="pages_index:filter_box_pubfilter_全部">全部</a>
+
+                        <a href="javascript:;" class="item" data-key="pubfilter" data-val="1"
+                           _stat="pages_index:filter_box_pubfilter_一天">一天</a>
+
+                        <a href="javascript:;" class="item" data-key="pubfilter" data-val="2"
+                           _stat="pages_index:filter_box_pubfilter_一周">一周</a>
+
+                        <a href="javascript:;" class="item" data-key="pubfilter" data-val="3"
+                           _stat="pages_index:filter_box_pubfilter_两周">两周</a>
+
+                        <a href="javascript:;" class="item" data-key="pubfilter" data-val="4"
+                           _stat="pages_index:filter_box_pubfilter_一月">一月</a>
+
+                    </div>
+                </div>
+
+
+                <div class="filter_line">
+                    <span class="label">时长</span>
+
+                    <div class="filter_content">
+
+                        <a href="javascript:;" class="item current" data-key="duration" data-val="0"
+                           _stat="pages_index:filter_box_duration_全部">全部</a>
+
+                        <a href="javascript:;" class="item" data-key="duration" data-val="1"
+                           _stat="pages_index:filter_box_duration_10分钟以下">10分钟以下</a>
+
+                        <a href="javascript:;" class="item" data-key="duration" data-val="2"
+                           _stat="pages_index:filter_box_duration_10-30分钟">10-30分钟</a>
+
+                        <a href="javascript:;" class="item" data-key="duration" data-val="3"
+                           _stat="pages_index:filter_box_duration_30-60分钟">30-60分钟</a>
+
+                        <a href="javascript:;" class="item" data-key="duration" data-val="4"
+                           _stat="pages_index:filter_box_duration_60分钟以上">60分钟以上</a>
+
+                    </div>
+                </div>
+
+
+                <div class="filter_line">
+                    <span class="label">分类</span>
+
+                    <div class="filter_content">
+
+                        <a href="javascript:;" class="item current" data-key="tabid" data-val="0"
+                           _stat="pages_index:filter_box_tabid_全部">全部</a>
+
+                        <a href="javascript:;" class="item" data-key="tabid" data-val="2"
+                           _stat="pages_index:filter_box_tabid_电视剧">电视剧</a>
+
+                        <a href="javascript:;" class="item" data-key="tabid" data-val="7"
+                           _stat="pages_index:filter_box_tabid_其他">其他</a>
+
+                        <a href="javascript:;" class="item" data-key="tabid" data-val="12"
+                           _stat="pages_index:filter_box_tabid_娱乐">娱乐</a>
+
+                        <a href="javascript:;" class="item" data-key="tabid" data-val="1"
+                           _stat="pages_index:filter_box_tabid_电影">电影</a>
+
+                        <a href="javascript:;" class="item" data-key="tabid" data-val="3"
+                           _stat="pages_index:filter_box_tabid_综艺">综艺</a>
+
+                        <a href="javascript:;" class="item" data-key="tabid" data-val="5"
+                           _stat="pages_index:filter_box_tabid_音乐">音乐</a>
+
+                        <a href="javascript:;" class="item" data-key="tabid" data-val="17"
+                           _stat="pages_index:filter_box_tabid_游戏">游戏</a>
+
+                        <a href="javascript:;" class="item" data-key="tabid" data-val="15"
+                           _stat="pages_index:filter_box_tabid_教育">教育</a>
+
+                        <a href="javascript:;" class="item" data-key="tabid" data-val="106"
+                           _stat="pages_index:filter_box_tabid_少儿">少儿</a>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="result_item result_item_v " >
+                <div class="_infos">
+                    <div data-tabid="" style="" data-activetab="">
+                        <a href="#" class="figure result_figure" target="_blank" >
+                            <img src="../img/search_1.jpg" alt="楚乔传">
+
+                            <span class="figure_caption"><span class="figure_info">接档剧《浪花一朵朵》正在热播</span></span>
+
+
+                            <span class="figure_collect" _r-cid="4" title="加入看单" _r-component="c-follow"><i
+                                    class="iconfont icon_collect"></i><i class="iconfont icon_collected"></i></span>
+                        </a>
+
+                        <h2 class="result_title"><a href="#" target="_blank"
+                                                    _stat="video:poster_tle"><em class="hl">楚乔传</em><span class="sub">（普通话/TV剪辑版/2017）</span><span
+                                class="type">电视剧</span></a></h2>
+                        <span class="result_score">7.8</span>
+
+                        <div class="result_info">
+
+                            <div class="info_item info_item_odd">
+                                <span class="label">别　名：</span>
+                                <span class="content">特工皇妃<em class="hl">楚乔传</em>  11处特工皇妃</span>
+                            </div>
+
+
+                            <div class="info_item info_item_even">
+                                <span class="label">英文名：</span>
+                                <span class="content">Princess &amp; Agents</span>
+                            </div>
+
+
+                            <div class="info_item info_item_odd">
+                                <span class="label">导　演：</span>
+                                <span class="content"><a href="#" target="_blank"
+                                                         _stat="video:poster_v_导演">吴锦源</a></span>
+                            </div>
+
+
+                            <div class="info_item info_item_even">
+                                <span class="label">主　演：</span>
+                                <span class="content">
+                                    <a href="#" target="_blank" _stat="video:poster_v_主演">赵丽颖</a>
+                                    <a href="#" target="_blank" _stat="video:poster_v_主演">林更新</a>
+                                    <a href="#" target="_blank" _stat="video:poster_v_主演">窦骁</a>
+                                    <a href="#" target="_blank" _stat="video:poster_v_主演">李沁</a>
+                                    <a href="#" target="_blank" _stat="video:poster_v_主演">邓伦</a>
+                                    <a href="#" target="_blank" _stat="video:poster_v_主演">王彦霖</a>
+                                </span>
+                            </div>
+
+
+                            <div class="info_item info_item_desc">
+                                <span class="label">简　介：</span>
+                                <span class="desc_text">《楚乔传》原名《11处特工皇妃》，根据潇湘冬儿同名小说改编。西魏年间乱世混战，大批平民在战乱中沦为奴隶，命如草芥。奴籍少女楚乔被送入人猎场供贵族娱乐射杀，幸得西凉世子燕洵暗中相救。随后她被带进权倾朝野的门阀宇文家，目睹兄姐相继惨死，立誓要带妹妹逃出牢笼。楚乔受到开明贵族宇文玥关注，被迫接受严厉训练的同时，更与燕洵结下深厚友谊。西魏门阀争斗，燕洵一家被屠，深陷绝境，楚乔与他生死相守并力助他逃脱困局。然而回到西凉后，燕洵野心膨胀，不惜以满城百姓的性命为代价割据称雄。楚乔在绝望中与燕洵分道扬镳，并与力求“天下一统、释奴止戈“的宇文玥并肩作战，粉碎了燕洵的复仇计划，成为心怀苍生的巾帼将军。权臣宇文泰也在良臣劝谏下释放奴隶，荼毒数百年的掠民为奴的暴政至此解冻。
+                                    <a class="desc_more" href="#" target="_blank" _stat="video:poster_detail">详细<i
+                                        class="iconfont arrow_right"></i></a></span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="_playlist">
+                    <div r-notemplate="true" _r-cid="5" class="" _r-component="inline-teleplay">
+                        <div style="">
+                            <div class="result_episode_list cf" r-notemplate="true" _r-cid="6"
+                                 _r-component="inline-telelist">
+                                <div class="item">
+                                    <a href="#" target="_blank" _stat="video:poster_num">1</a>
+
+                                </div>
+                                <div class="item">
+                                    <a href="#" target="_blank" _stat="video:poster_num">2</a>
+                                </div>
+                                <div class="item">
+                                    <a href="#" target="_blank" _stat="video:poster_num">3</a>
+                                </div>
+                                <div class="item">
+                                    <a href="#" target="_blank" _stat="video:poster_num">4</a>
+                                </div>
+                                <div class="item">
+                                    <a href="#" target="_blank" _stat="video:poster_num">5</a>
+                                </div>
+                                <div class="item">
+                                    <a href="#" target="_blank" _stat="video:poster_num">6</a>
+                                </div>
+                                <div class="item">
+                                    <a href="#" target="_blank" _stat="video:poster_num">7</a>
+                                </div>
+                                <div class="item">
+                                    <a href="#" target="_blank" _stat="video:poster_num">8</a>
+                                </div>
+                                <div class="item">
+                                    <a href="#" target="_blank" _stat="video:poster_num">9</a>
+                                </div>
+                                <div class="item">
+                                    <a href="#" target="_blank" _stat="video:poster_num">10</a>
+
+                                </div>
+                                <div class="item">
+                                    <a href="#" target="_blank" _stat="video:poster_num">11</a>
+                                </div>
+                                <div class="item">
+                                    <a href="#" target="_blank" _stat="video:poster_num">12</a>
+                                </div>
+                                <div class="item item_fold">
+                                    <a href="javascript:;" >...</a></div>
+                                <div class="item">
+                                    <a href="#" target="_blank" _stat="video:poster_num">55</a>
+                                </div>
+                                <div class="item">
+                                    <a href="#" target="_blank" _stat="video:poster_num">56</a>
+
+                                </div>
+                                <div class="item">
+                                    <a href="#" target="_blank" _stat="video:poster_num">57</a>
+
+                                </div>
+
+                                <div class="item">
+                                    <a href="#" target="_blank" _stat="video:poster_num">58</a>
+
+                                </div>
+
+                                <div class="item">
+                                    <a href="#" target="_blank" _stat="video:poster_num">59</a>
+
+                                </div>
+
+                                <div class="item">
+                                    <a href="#" target="_blank" _stat="video:poster_num">60</a>
+
+                                </div>
+                                <div class="item">
+                                    <a href="#" target="_blank" _stat="video:poster_num">61</a>
+
+                                </div>
+                                <div class="item">
+                                    <a href="#" target="_blank" _stat="video:poster_num">62</a>
+
+                                </div>
+                                <div class="item">
+                                    <a href="#" target="_blank" _stat="video:poster_num">63</a>
+                                </div>
+
+                                <div class="item">
+                                    <a href="#" target="_blank" _stat="video:poster_num">64</a>
+                                </div>
+                                <div class="item">
+                                    <a href="#" target="_blank" _stat="video:poster_num">65</a>
+                                </div>
+
+                                <div class="item">
+                                    <a href="#" target="_blank" _stat="video:poster_num">66</a>
+
+                                </div>
+                                <div class="item">
+                                    <a href="#" target="_blank" _stat="video:poster_num">67</a>
+
+                                </div>
+
+                            </div>
+
+
+                            <a href="javascript:;" class="tip_download">
+                                <i class="icon_sm icon_dl_sm">
+                                </i>
+                                 <span class="icon_text"><i>下载客户端，</i><i>免费蓝光播放</i>
+                        </span>
+                                <i class="triangle_up triangle_up_wrap"><i class="triangle_up"></i></i>
+
+                                <div class="tip_download_pop"><!-- margin-left的值需要计算 -->
+                                    <div class="quick_pop_inner">
+                                        <div class="pop_info_content">
+                                            <div class="pop_client_txt">使用嗨果视频客户端播放</div>
+                                            <div class="pop_client_info">
+                                                <span class="info_item info_item_1">
+                                                    <i class="icon svg_icon_vipflat"></i>连续签到5天送VIP
+                                                </span>
+                                                <span class="info_item info_item_2">
+                                                    <i class="icon icon_lightning"></i>三倍流畅播放
+                                                </span>
+                                                <span class="info_item info_item_3"><i class="icon icon_hd">
+                                                    <i class="svg_icon" viewBox="0 0 20 20" width="20" height="20">
+                                                    </i></i>1080P蓝光画质
+                                                </span>
+                                                <span class="info_item info_item_4"><i class="icon icon_time_advance">
+                                                    <i class="svg_icon" viewBox="0 0 20 20" width="20" height="20">
+                                                    </i></i>新剧提前看
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="_playsrc">
+                        <div class="result_source" r-notemplate="true" _r-cid="8" data-playsrc="qq"
+                             _r-component="playsrc">
+			<span class="_cur_playsrc">
+				<i class="icon_source icon_source_tencentvideo"></i>
+<span class="icon_text">嗨果视频
+
+</span>
+			</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="result_item result_item_v" >
+                <div class="_infos">
+                    <div data-tabid="" style="" data-activetab="">
+                        <a href="#" class="figure result_figure"
+                           target="_blank" _stat="video:poster_v">
+                            <img src="../img/search_1.jpg" alt="楚乔传[DVD版]">
+
+                            <span class="figure_caption"><span class="figure_info">全58集</span></span>
+
+
+                            <span class="figure_collect" _r-cid="10" title="加入看单" _r-component="c-follow"><i
+                                    class="iconfont icon_collect"></i><i class="iconfont icon_collected"></i></span>
+                        </a>
+
+                        <h2 class="result_title"><a href="#" target="_blank"
+                                                    _stat="video:poster_tle"><em class="hl">楚乔传</em>[DVD版]<span
+                                class="sub">（普通话/DVD版/2017）</span><span class="type">电视剧</span></a></h2>
+                        <span class="result_score">7.7</span>
+
+                        <div class="result_info">
+
+                            <div class="info_item info_item_odd">
+                                <span class="label">别　名：</span>
+                                <span class="content">特工皇妃<em class="hl">楚乔传</em>  11处特工皇妃</span>
+                            </div>
+
+
+                            <div class="info_item info_item_even">
+                                <span class="label">英文名：</span>
+                                <span class="content">Princess &amp; Agents</span>
+                            </div>
+
+
+                            <div class="info_item info_item_odd">
+                                <span class="label">导　演：</span>
+                                <span class="content"><a href="#" target="_blank"
+                                                         _stat="video:poster_v_导演">吴锦源</a></span>
+                            </div>
+
+
+                            <div class="info_item info_item_even">
+                                <span class="label">主　演：</span>
+                                <span class="content">
+                                    <a href="#" target="_blank" _stat="video:poster_v_主演">赵丽颖</a>
+                                    <a href="#" target="_blank" _stat="video:poster_v_主演">林更新</a>
+                                    <a href="#" target="_blank" _stat="video:poster_v_主演">窦骁</a>
+                                    <a href="#" target="_blank" _stat="video:poster_v_主演">李沁</a>
+                                    <a href="#" target="_blank" _stat="video:poster_v_主演">邓伦</a>
+                                    <a href="#" target="_blank" _stat="video:poster_v_主演">王彦霖</a>
+                                </span>
+                            </div>
+
+
+                            <div class="info_item info_item_desc">
+                                <span class="label">简　介：</span>
+                                <span class="desc_text">《楚乔传》原名《11处特工皇妃》，根据潇湘冬儿同名小说改编。西魏年间乱世混战，大批平民在战乱中沦为奴隶，命如草芥。奴籍少女楚乔被送入人猎场供贵族娱乐射杀，幸得西凉世子燕洵暗中相救。随后她被带进权倾朝野的门阀宇文家，目睹兄姐相继惨死，立誓要带妹妹逃出牢笼。楚乔受到开明贵族宇文玥关注，被迫接受严厉训练的同时，更与燕洵结下深厚友谊。西魏门阀争斗，燕洵一家被屠，深陷绝境，楚乔与他生死相守并力助他逃脱困局。然而回到西凉后，燕洵野心膨胀，不惜以满城百姓的性命为代价割据称雄。楚乔在绝望中与燕洵分道扬镳，并与力求“天下一统、释奴止戈“的宇文玥并肩作战，粉碎了燕洵的复仇计划，成为心怀苍生的巾帼将军。权臣宇文泰也在良臣劝谏下释放奴隶，荼毒数百年的掠民为奴的暴政至此解冻。
+                                    <a class="desc_more" href="#"
+                                        target="_blank" _stat="video:poster_detail">详细<i
+                                        class="iconfont arrow_right"></i></a></span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="_playlist">
+
+
+                    <div r-notemplate="true" _r-cid="11" class="" >
+
+                        <div style="">
+
+                            <div class="result_episode_list cf" r-notemplate="true" >
+
+                                <div class="item">
+                                    <a href="#" target="_blank" >1</a>
+
+                                </div>
+                                <div class="item">
+                                    <a href="#" target="_blank" >2</a>
+                                </div>
+                                <div class="item">
+                                    <a href="#" target="_blank" >3</a>
+                                </div>
+
+
+                                <div class="item">
+                                    <a href="#" target="_blank" >4</a>
+                                </div>
+
+                                <div class="item">
+                                    <a href="#" target="_blank" >5</a>
+                                </div>
+                                <div class="item">
+                                    <a href="#" target="_blank" >6</a>
+                                </div>
+                                <div class="item">
+                                    <a href="#" target="_blank" >7</a>
+                                </div>
+                                <div class="item">
+                                    <a href="#" target="_blank" >8</a>
+                                </div>
+                                <div class="item">
+                                    <a href="#" target="_blank" >9</a>
+                                </div>
+                                <div class="item">
+                                    <a href="#" target="_blank" >10</a>
+                                </div>
+                                <div class="item">
+                                    <a href="#" target="_blank" >11</a>
+                                </div>
+                                <div class="item">
+                                    <a href="#" target="_blank" >12</a>
+                                </div>
+                                <div class="item item_fold"><a href="javascript:;" _stat="video:poster_num_unfold">...</a></div>
+                                <div class="item">
+                                    <a href="#" target="_blank" >46</a>
+                                </div>
+                                <div class="item">
+                                    <a href="#" target="_blank" >47</a>
+                                </div>
+                                <div class="item">
+                                    <a href="#" target="_blank" >48</a>
+                                </div>
+                                <div class="item">
+                                    <a href="#" target="_blank" >49</a>
+                                </div>
+                                <div class="item">
+                                    <a href="#" target="_blank" >50</a>
+                                </div>
+                                <div class="item">
+                                    <a href="#" target="_blank" >51</a>
+                                </div>
+                                <div class="item">
+                                    <a href="#" target="_blank" >52</a>
+                                </div>
+                                <div class="item">
+                                    <a href="#" target="_blank" >53</a>
+                                </div>
+                                <div class="item">
+                                    <a href="#" target="_blank" >54</a>
+                                </div>
+                                <div class="item">
+                                    <a href="#" target="_blank" >55</a>
+                                </div>
+                                <div class="item">
+                                    <a href="#" target="_blank" >56</a>
+                                </div>
+                                <div class="item">
+                                    <a href="#" target="_blank" >57</a>
+                                </div>
+                                <div class="item">
+                                    <a href="#" target="_blank" >58</a>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <a href="javascript:;" class="tip_download">
+                            <i class="icon_sm icon_dl_sm">
+                            </i>
+                                 <span class="icon_text"><i>下载客户端，</i><i>免费蓝光播放</i>
+                        </span>
+                            <i class="triangle_up triangle_up_wrap"><i class="triangle_up"></i></i>
+
+                            <div class="tip_download_pop"><!-- margin-left的值需要计算 -->
+                                <div class="quick_pop_inner">
+                                    <div class="pop_info_content">
+                                        <div class="pop_client_txt">使用嗨果视频客户端播放</div>
+                                        <div class="pop_client_info">
+                                                <span class="info_item info_item_1">
+                                                    <i class="icon svg_icon_vipflat"></i>连续签到5天送VIP
+                                                </span>
+                                                <span class="info_item info_item_2">
+                                                    <i class="icon icon_lightning"></i>三倍流畅播放
+                                                </span>
+                                                <span class="info_item info_item_3"><i class="icon icon_hd">
+                                                    <i class="svg_icon" viewBox="0 0 20 20" width="20" height="20">
+                                                    </i></i>1080P蓝光画质
+                                                </span>
+                                                <span class="info_item info_item_4"><i class="icon icon_time_advance">
+                                                    <i class="svg_icon" viewBox="0 0 20 20" width="20" height="20">
+                                                    </i></i>新剧提前看
+                                                </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+
+
+                </div>
+
+
+                <div class="_playsrc">
+
+
+                    <div class="result_source" r-notemplate="true" _r-cid="14" data-playsrc="qq" _r-component="playsrc">
+			<span class="_cur_playsrc">
+				<i class="icon_source icon_source_tencentvideo"></i>
+<span class="icon_text">嗨果视频
+
+</span>
+
+			</span>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+            <div class="result_item result_item_v" >
+                <div class="_infos">
+                    <div data-tabid="" style="" data-activetab="">
+                        <a href="#" class="figure result_figure"
+                           target="_blank" _stat="video:poster_v">
+                            <img src="../img/search_02.jpg" alt="楚乔传未播片场花絮">
+
+
+                            <span class="figure_collect" _r-cid="16" title="加入看单" _r-component="c-follow"><i
+                                    class="iconfont icon_collect"></i><i class="iconfont icon_collected"></i></span>
+                        </a>
+
+                        <h2 class="result_title"><a href="#" target="_blank"
+                                                    _stat="video:poster_tle"><em class="hl">楚乔传</em>未播片场花絮<span
+                                class="sub">（普通话/原版/2017）</span><span class="type">电视剧</span></a></h2>
+                        <span class="result_score">7.1</span>
+
+                        <div class="result_info">
+
+                            <div class="info_item info_item_odd">
+                                <span class="label">别　名：</span>
+                                <span class="content">特工皇妃<em class="hl">楚乔传</em>  11处特工皇妃</span>
+                            </div>
+
+
+                            <div class="info_item info_item_even">
+                                <span class="label">英文名：</span>
+                                <span class="content">Princess &amp; Agents</span>
+                            </div>
+
+
+                            <div class="info_item info_item_odd">
+                                <span class="label">导　演：</span>
+                                <span class="content"><a href="#" target="_blank"
+                                                         _stat="video:poster_v_导演">吴锦源</a></span>
+                            </div>
+
+
+                            <div class="info_item info_item_even">
+                                <span class="label">主　演：</span>
+                                <span class="content"><a href="#" target="_blank"
+                                                         _stat="video:poster_v_主演">李沁</a> <a
+                                        href="#" target="_blank" _stat="video:poster_v_主演">窦骁</a> <a
+                                        href="#" target="_blank" _stat="video:poster_v_主演">林更新</a> <a
+                                        href="#" target="_blank" _stat="video:poster_v_主演">赵丽颖</a> <a
+                                        href="#" target="_blank" _stat="video:poster_v_主演">邓伦</a> <a
+                                        href="#" target="_blank" _stat="video:poster_v_主演">王彦霖</a></span>
+                            </div>
+
+
+                            <div class="info_item info_item_desc">
+                                <span class="label">简　介：</span>
+                                <span class="desc_text">正片虐心，片场逗比，你们真的很会玩儿！
+                                    <a class="desc_more" href="#" target="_blank">详细<i
+                                        class="iconfont arrow_right"></i></a></span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="_playlist">
+
+
+                    <div r-notemplate="true" _r-cid="17" class="" _r-component="inline-series">
+
+
+                        <div data-id="1-63" data-playsrc="qq" style="">
+
+
+                            <div class="result_link_list cf" r-notemplate="true" _r-cid="18"
+                                 _r-component="inline-series-list">
+
+			<span style="">
+
+
+					<div class="item"><a href="#" target="_blank"
+                                         title="楚乔花絮社：影子也抢戏！柿子站窗外疯狂向颖宝笔芯" _stat="video:poster_tlelist">楚乔花絮社：影子也抢戏！柿子站窗外疯狂向颖宝笔芯</a>
+
+                    </div>
+
+
+
+
+					<div class="item"><a href="#" target="_blank"
+                                         title="楚乔花絮社：红山院祖孙来啦！怀嬷嬷和席老太爷也可以这么萌" _stat="video:poster_tlelist">楚乔花絮社：红山院祖孙来啦！怀嬷嬷和席老太爷也可以这么萌</a>
+
+                    </div>
+
+
+
+
+					<div class="item"><a href="#" target="_blank"
+                                         title="楚乔花絮社：救人变打人！林更新玩心大发整蛊赵丽颖" _stat="video:poster_tlelist">楚乔花絮社：救人变打人！林更新玩心大发整蛊赵丽颖</a>
+
+                    </div>
+
+
+
+
+					<div class="item"><a href="#" target="_blank"
+                                         title="楚乔花絮社：快来感受皇子style！牛骏峰&amp;金珈定妆特辑" _stat="video:poster_tlelist">楚乔花絮社：快来感受皇子style！牛骏峰&amp;金珈定妆特辑</a>
+
+                    </div>
+
+
+
+
+					<div class="item"><a href="#" target="_blank"
+                                         title="楚乔花絮社：李沁狱中哭戏一镜到底，这段演技太6了" _stat="video:poster_tlelist">楚乔花絮社：李沁狱中哭戏一镜到底，这段演技太6了</a>
+
+                    </div>
+
+
+
+			</span>
+                                <span class="_series_list" style="display: none"></span>
+
+                                <div class="item item_fold" style="">
+                                    <a href="javascript:void(0);"
+                                       _stat="video:poster_tlelist_unfold"><span>展开更多</span><span> (余58集) </span><i
+                                            class="iconfont arrow_down"></i></a>
+                                </div>
+                                <div class="item item_fold" style="display: none">
+                                    <a href="javascript:void(0);" _stat="video:poster_tlelist_fold"><span>收起</span><i
+                                            class="iconfont arrow_up"></i></a>
+                                </div>
+
+                            </div>
+
+
+                            <a href="javascript:;" class="tip_download">
+                                <i class="icon_sm icon_dl_sm">
+                                </i>
+                                 <span class="icon_text"><i>下载客户端，</i><i>免费蓝光播放</i>
+                        </span>
+                                <i class="triangle_up triangle_up_wrap"><i class="triangle_up"></i></i>
+
+                                <div class="tip_download_pop"><!-- margin-left的值需要计算 -->
+                                    <div class="quick_pop_inner">
+                                        <div class="pop_info_content">
+                                            <div class="pop_client_txt">使用嗨果视频客户端播放</div>
+                                            <div class="pop_client_info">
+                                                <span class="info_item info_item_1">
+                                                    <i class="icon svg_icon_vipflat"></i>连续签到5天送VIP
+                                                </span>
+                                                <span class="info_item info_item_2">
+                                                    <i class="icon icon_lightning"></i>三倍流畅播放
+                                                </span>
+                                                <span class="info_item info_item_3"><i class="icon icon_hd">
+                                                    <i class="svg_icon" viewBox="0 0 20 20" width="20" height="20">
+                                                    </i></i>1080P蓝光画质
+                                                </span>
+                                                <span class="info_item info_item_4"><i class="icon icon_time_advance">
+                                                    <i class="svg_icon" viewBox="0 0 20 20" width="20" height="20">
+                                                    </i></i>新剧提前看
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+                <div class="_playsrc">
+
+
+                    <div class="result_source" r-notemplate="true" _r-cid="20" data-playsrc="qq" _r-component="playsrc">
+			<span class="_cur_playsrc">
+				<i class="icon_source icon_source_tencentvideo"></i>
+<span class="icon_text">嗨果视频
+
+</span>
+
+			</span>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+            <div class="result_item result_item_v" >
+                <div class="_infos">
+                    <div data-tabid="" style="" data-activetab="">
+                        <a href="#" class="figure result_figure"
+                           target="_blank" _stat="video:poster_v">
+                            <img src="../img/search_03.jpg" alt="楚乔传星玥夫妇高甜合集">
+
+                            <span class="mark_v"><img src="../img/icon_yugao.png" ></span>
+
+
+                            <span class="figure_collect" _r-cid="22" title="加入看单" _r-component="c-follow"><i
+                                    class="iconfont icon_collect"></i><i class="iconfont icon_collected"></i></span>
+                        </a>
+
+                        <h2 class="result_title"><a href="#" target="_blank">楚乔传星玥夫妇高甜合集<span
+                                class="sub">（普通话/原版/2017）</span><span class="type">电视剧</span></a></h2>
+                        <span class="result_score">7.5</span>
+
+                        <div class="result_info">
+
+
+                            <div class="info_item info_item_odd">
+                                <span class="label">导　演：</span>
+                                <span class="content"><a href="#" target="_blank">吴锦源</a></span>
+                            </div>
+
+
+                            <div class="info_item info_item_even">
+                                <span class="label">主　演：</span>
+                                <span class="content"><a href="#" target="_blank">赵丽颖</a> <a
+                                        href="#" target="_blank" _stat="video:poster_v_主演">林更新</a></span>
+                            </div>
+
+
+                            <div class="info_item info_item_desc">
+                                <span class="label">简　介：</span>
+                                <span class="desc_text">星玥同辉，王者见王。我为星辰君为月，楚乔X宇文玥，是冷酷是无情还是爱，我们只给你最纯粹的星玥夫妇。<a
+                                        class="desc_more" href="#"
+                                        target="_blank" _stat="video:poster_detail">详细<i
+                                        class="iconfont arrow_right"></i></a></span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="_playlist">
+
+
+                    <div r-notemplate="true" _r-cid="23" class="" _r-component="inline-series">
+
+
+                        <div data-id="1-15" data-playsrc="qq" style="">
+
+
+                            <div class="result_link_list cf" r-notemplate="true" _r-cid="24"
+                                 _r-component="inline-series-list">
+
+			<span style="">
+
+
+					<div class="item"><a href="#" target="_blank"
+                                         title="楚乔传 星玥主线CUT15" _stat="video:poster_tlelist">楚乔传 星玥主线CUT15</a>
+
+                    </div>
+
+
+
+
+					<div class="item"><a href="#" target="_blank"
+                                         title="楚乔传 星玥主线CUT14" _stat="video:poster_tlelist">楚乔传 星玥主线CUT14</a>
+
+                    </div>
+
+
+
+
+					<div class="item"><a href="#" target="_blank"
+                                         title="楚乔传 星玥主线CUT13" _stat="video:poster_tlelist">楚乔传 星玥主线CUT13</a>
+
+                    </div>
+
+
+
+
+					<div class="item"><a href="#" target="_blank"
+                                         title="楚乔传 星玥主线CUT12" _stat="video:poster_tlelist">楚乔传 星玥主线CUT12</a>
+
+                    </div>
+
+
+
+
+					<div class="item"><a href="#" target="_blank" title="楚乔传 星玥主线CUT11">楚乔传 星玥主线CUT11</a>
+
+                    </div>
+
+
+
+			</span>
+                                <span class="_series_list" style="display: none"></span>
+
+                                <div class="item item_fold" style="">
+                                    <a href="javascript:void(0);"
+                                       _stat="video:poster_tlelist_unfold"><span>展开更多</span><span> (余10集) </span><i
+                                            class="iconfont arrow_down"></i></a>
+                                </div>
+                                <div class="item item_fold" style="display: none">
+                                    <a href="javascript:void(0);" _stat="video:poster_tlelist_fold"><span>收起</span><i
+                                            class="iconfont arrow_up"></i></a>
+                                </div>
+
+                            </div>
+
+
+                            <a href="javascript:;" class="tip_download">
+                                <i class="icon_sm icon_dl_sm">
+                                </i>
+                                 <span class="icon_text"><i>下载客户端，</i><i>免费蓝光播放</i>
+                        </span>
+                                <i class="triangle_up triangle_up_wrap"><i class="triangle_up"></i></i>
+
+                                <div class="tip_download_pop"><!-- margin-left的值需要计算 -->
+                                    <div class="quick_pop_inner">
+                                        <div class="pop_info_content">
+                                            <div class="pop_client_txt">使用嗨果视频客户端播放</div>
+                                            <div class="pop_client_info">
+                                                <span class="info_item info_item_1">
+                                                    <i class="icon svg_icon_vipflat"></i>连续签到5天送VIP
+                                                </span>
+                                                <span class="info_item info_item_2">
+                                                    <i class="icon icon_lightning"></i>三倍流畅播放
+                                                </span>
+                                                <span class="info_item info_item_3"><i class="icon icon_hd">
+                                                    <i class="svg_icon" viewBox="0 0 20 20" width="20" height="20">
+                                                    </i></i>1080P蓝光画质
+                                                </span>
+                                                <span class="info_item info_item_4"><i class="icon icon_time_advance">
+                                                    <i class="svg_icon" viewBox="0 0 20 20" width="20" height="20">
+                                                    </i></i>新剧提前看
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+                <div class="_playsrc">
+
+
+                    <div class="result_source" r-notemplate="true" _r-cid="26" data-playsrc="qq" _r-component="playsrc">
+			<span class="_cur_playsrc">
+				<i class="icon_source icon_source_tencentvideo"></i>
+<span class="icon_text">嗨果视频
+
+</span>
+
+			</span>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+            <div class="result_item result_item_v" >
+                <div class="_infos">
+                    <div data-tabid="" style="" data-activetab="">
+                        <a href="#" class="figure result_figure"
+                           target="_blank" _stat="video:poster_v">
+                            <img src="../img/search_03.jpg" alt="楚乔传赵丽颖CUT">
+
+                            <span class="mark_v"><img src="../img/icon_yugao.png" ></span>
+
+
+                            <span class="figure_collect" _r-cid="28" title="加入看单" _r-component="c-follow"><i
+                                    class="iconfont icon_collect"></i><i class="iconfont icon_collected"></i></span>
+                        </a>
+
+                        <h2 class="result_title"><a href="#" target="_blank"
+                                                    _stat="video:poster_tle">楚乔传赵丽颖CUT<span
+                                class="sub">（普通话/原版/2017）</span><span class="type">电视剧</span></a></h2>
+                        <span class="result_score">7.0</span>
+
+                        <div class="result_info">
+
+
+                            <div class="info_item info_item_odd">
+                                <span class="label">导　演：</span>
+                                <span class="content"><a href="#" target="_blank">吴锦源</a></span>
+                            </div>
+
+
+                            <div class="info_item info_item_even">
+                                <span class="label">主　演：</span>
+                                <span class="content"><a href="#" target="_blank">赵丽颖</a></span>
+                            </div>
+
+
+                            <div class="info_item info_item_desc">
+                                <span class="label">简　介：</span>
+                                <span class="desc_text">《楚乔传》赵丽颖CUT合集，让你满屏都是最爱的秀丽王~~
+                                    <a class="desc_more" href="#" target="_blank" _stat="video:poster_detail">详细<iclass="iconfont arrow_right"></i></a></span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="_playlist">
+
+
+                    <div r-notemplate="true" _r-cid="29" class="" _r-component="inline-series">
+
+
+                        <div data-id="1-48" data-playsrc="qq" style="">
+
+
+                            <div class="result_link_list cf" r-notemplate="true" _r-cid="30"
+                                 _r-component="inline-series-list">
+
+			<span style="">
+
+
+					<div class="item"><a href="#" target="_blank" title="《楚乔传》赵丽颖CUT42" _stat="video:poster_tlelist">《楚乔传》赵丽颖CUT42</a>
+
+                    </div>
+
+
+
+
+					<div class="item"><a href="#" target="_blank"
+                                         title="《楚乔传》赵丽颖CUT41" _stat="video:poster_tlelist">《楚乔传》赵丽颖CUT41</a>
+
+                    </div>
+
+
+
+
+					<div class="item"><a href="#" target="_blank"
+                                         title="《楚乔传》赵丽颖CUT40" _stat="video:poster_tlelist">《楚乔传》赵丽颖CUT40</a>
+
+                    </div>
+
+
+
+
+					<div class="item"><a href="#" target="_blank"
+                                         title="《楚乔传》赵丽颖CUT39" _stat="video:poster_tlelist">《楚乔传》赵丽颖CUT39</a>
+
+                    </div>
+
+
+
+
+					<div class="item"><a href="#" target="_blank"
+                                         title="《楚乔传》赵丽颖CUT38" _stat="video:poster_tlelist">《楚乔传》赵丽颖CUT38</a>
+
+                    </div>
+
+
+
+			</span>
+                                <span class="_series_list" style="display: none"></span>
+
+                                <div class="item item_fold" style="">
+                                    <a href="javascript:void(0);"
+                                       _stat="video:poster_tlelist_unfold"><span>展开更多</span><span> (余43集) </span><i
+                                            class="iconfont arrow_down"></i></a>
+                                </div>
+                                <div class="item item_fold" style="display: none">
+                                    <a href="javascript:void(0);" _stat="video:poster_tlelist_fold"><span>收起</span><i
+                                            class="iconfont arrow_up"></i></a>
+                                </div>
+
+                            </div>
+
+
+                            <a href="javascript:;" class="tip_download">
+                                <i class="icon_sm icon_dl_sm">
+                                </i>
+                                 <span class="icon_text"><i>下载客户端，</i><i>免费蓝光播放</i>
+                        </span>
+                                <i class="triangle_up triangle_up_wrap"><i class="triangle_up"></i></i>
+
+                                <div class="tip_download_pop"><!-- margin-left的值需要计算 -->
+                                    <div class="quick_pop_inner">
+                                        <div class="pop_info_content">
+                                            <div class="pop_client_txt">使用嗨果视频客户端播放</div>
+                                            <div class="pop_client_info">
+                                                <span class="info_item info_item_1">
+                                                    <i class="icon svg_icon_vipflat"></i>连续签到5天送VIP
+                                                </span>
+                                                <span class="info_item info_item_2">
+                                                    <i class="icon icon_lightning"></i>三倍流畅播放
+                                                </span>
+                                                <span class="info_item info_item_3"><i class="icon icon_hd">
+                                                    <i class="svg_icon" viewBox="0 0 20 20" width="20" height="20">
+                                                    </i></i>1080P蓝光画质
+                                                </span>
+                                                <span class="info_item info_item_4"><i class="icon icon_time_advance">
+                                                    <i class="svg_icon" viewBox="0 0 20 20" width="20" height="20">
+                                                    </i></i>新剧提前看
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+                <div class="_playsrc">
+
+
+                    <div class="result_source" r-notemplate="true" _r-cid="32" data-playsrc="qq" _r-component="playsrc">
+			<span class="_cur_playsrc">
+				<i class="icon_source icon_source_tencentvideo"></i>
+<span class="icon_text">嗨果视频
+
+</span>
+
+			</span>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+            <div class="result_item result_item_v" >
+                <div class="_infos">
+                    <div data-tabid="" style="" data-activetab="">
+                        <a href="#" class="figure result_figure" target="_blank" >
+                            <img src="../img/search_1.jpg" alt="楚乔传林更新CUT">
+
+                            <span class="mark_v"><img src="../img/icon_yugao.png" alt=""></span>
+
+
+                            <span class="figure_collect"  title="加入看单" ><i
+                                    class="iconfont icon_collect"></i><i class="iconfont icon_collected"></i></span>
+                        </a>
+
+                        <h2 class="result_title"><a href="#" target="_blank">楚乔传林更新CUT<span
+                                class="sub">（普通话/原版/2017）</span><span class="type">电视剧</span></a></h2>
+                        <span class="result_score">7.0</span>
+
+                        <div class="result_info">
+
+
+                            <div class="info_item info_item_odd">
+                                <span class="label">导　演：</span>
+                                <span class="content"><a href="#" target="_blank"">吴锦源</a></span>
+                            </div>
+
+
+                            <div class="info_item info_item_even">
+                                <span class="label">主　演：</span>
+                                <span class="content"><a href="#" target="_blank">林更新</a></span>
+                            </div>
+
+
+                            <div class="info_item info_item_desc">
+                                <span class="label">简　介：</span>
+                                <span class="desc_text">《楚乔传》林更新CUT合集，承包玥公子日常~~
+                                    <a class="#" target="_blank">详细<i class="iconfont arrow_right"></i></a></span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="_playlist">
+
+
+                    <div r-notemplate="true" _r-cid="35" class="" _r-component="inline-series">
+
+
+                        <div data-id="1-45" data-playsrc="qq" style="">
+
+
+                            <div class="result_link_list cf" r-notemplate="true" _r-cid="36"
+                                 _r-component="inline-series-list">
+
+			<span style="">
+
+					<div class="item"><a href="#" target="_blank" title="《楚乔传》林更新CUT52">《楚乔传》林更新CUT52</a>
+
+                    </div>
+
+					<div class="item"><a href="#" target="_blank" >《楚乔传》林更新CUT51</a>
+                    </div>
+					<div class="item"><a href="#" target="_blank" title="《楚乔传》林更新CUT50" >《楚乔传》林更新CUT50</a>
+
+                    </div>
+
+					<div class="item"><a href="#" target="_blank" title="《楚乔传》林更新CUT48" >《楚乔传》林更新CUT48</a>
+
+                    </div>
+
+					<div class="item"><a href="#"  target="_blank" title="《楚乔传》林更新CUT43" >《楚乔传》林更新CUT43</a>
+
+                    </div>
+			</span>
+                                <span class="_series_list" style="display: none"></span>
+
+                                <div class="item item_fold" style="">
+                                    <a href="javascript:void(0);"><span>展开更多</span><span> (余40集) </span><i
+                                            class="iconfont arrow_down"></i></a>
+                                </div>
+                                <div class="item item_fold" style="display: none">
+                                    <a href="javascript:void(0);" ><span>收起</span><i class="iconfont arrow_up"></i></a>
+                                </div>
+
+                            </div>
+
+
+                            <a href="javascript:;" class="tip_download">
+                                <i class="icon_sm icon_dl_sm">
+                                </i>
+                                 <span class="icon_text"><i>下载客户端，</i><i>免费蓝光播放</i>
+                        </span>
+                                <i class="triangle_up triangle_up_wrap"><i class="triangle_up"></i></i>
+
+                                <div class="tip_download_pop"><!-- margin-left的值需要计算 -->
+                                    <div class="quick_pop_inner">
+                                        <div class="pop_info_content">
+                                            <div class="pop_client_txt">使用嗨果视频客户端播放</div>
+                                            <div class="pop_client_info">
+                                                <span class="info_item info_item_1">
+                                                    <i class="icon svg_icon_vipflat"></i>连续签到5天送VIP
+                                                </span>
+                                                <span class="info_item info_item_2">
+                                                    <i class="icon icon_lightning"></i>三倍流畅播放
+                                                </span>
+                                                <span class="info_item info_item_3"><i class="icon icon_hd">
+                                                    <i class="svg_icon" viewBox="0 0 20 20" width="20" height="20">
+                                                    </i></i>1080P蓝光画质
+                                                </span>
+                                                <span class="info_item info_item_4"><i class="icon icon_time_advance">
+                                                    <i class="svg_icon" viewBox="0 0 20 20" width="20" height="20">
+                                                    </i></i>新剧提前看
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+                <div class="_playsrc">
+
+
+                    <div class="result_source" r-notemplate="true" _r-cid="38" data-playsrc="qq" _r-component="playsrc">
+			<span class="_cur_playsrc">
+				<i class="icon_source icon_source_tencentvideo"></i>
+<span class="icon_text">嗨果视频
+
+</span>
+
+			</span>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="result_item result_item_v" >
+                <div class="_infos">
+                    <div data-tabid="" style="" data-activetab="">
+                        <a href="#" class="figure result_figure"
+                           target="_blank" _stat="video:poster_v">
+                            <img src="../img/search_1.jpg" alt="楚乔传燕楚夫妇高能合集">
+
+                            <span class="mark_v"><img src="../img/icon_yugao.png" ></span>
+
+
+                            <span class="figure_collect" _r-cid="40" title="加入看单" _>
+                                <i class="iconfont icon_collect"></i><i class="iconfont icon_collected"></i></span>
+                        </a>
+
+                        <h2 class="result_title"><a href="#" target="_blank">楚乔传燕楚夫妇高能合集<span
+                                class="sub">（原版/2017）</span><span class="type">电视剧</span></a></h2>
+                        <span class="result_score">7.4</span>
+
+                        <div class="result_info">
+                            <div class="info_item info_item_odd">
+                                <span class="label">导　演：</span>
+                                <span class="content"><a href="#" target="_blank">吴锦源</a></span>
+                            </div>
+
+
+                            <div class="info_item info_item_even">
+                                <span class="label">主　演：</span>
+                                <span class="content"><a href="#" target="_blank">赵丽颖</a> <a href="#" target="_blank">窦骁</a></span>
+                            </div>
+
+
+                            <div class="info_item info_item_desc">
+                                <span class="label">简　介：</span>
+                                <span class="desc_text">燕楚（燕洵、楚乔）夫妇虐心感情线，这条感情线你追不追？<a href="#" target="_blank">详细<i class="iconfont arrow_right"></i></a></span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="_playlist">
+
+
+                    <div r-notemplate="true" _r-cid="41" class="" _r-component="inline-series">
+
+
+                        <div data-id="1-52" data-playsrc="qq" style="">
+
+
+                            <div class="result_link_list cf" r-notemplate="true" _r-cid="42"
+                                 _r-component="inline-series-list">
+
+			<span style="">
+
+
+					<div class="item"><a href="#" target="_blank">燕楚重逢 燕洵却不敢与楚乔相认</a>
+
+                    </div>
+
+					<div class="item"><a href="#" target="_blank">世子抛弃秀丽军！楚乔不放弃回城营救</a>
+
+                    </div>
+
+					<div class="item"><a href="#" target="_blank">赵丽颖欲与窦骁里应外合 遭林更新阻拦</a>
+
+                    </div>
+
+					<div class="item"><a href="#" target="_blank">三年之期已到 燕楚开酒庆祝欲前往燕北</a>
+
+                    </div>
+
+					<div class="item"><a href="#" target="_blank">燕楚齐心打BOSS
+                        燕洵婚宴要有大事发生？</a>
+
+                    </div>
+			</span>
+                                <span class="_series_list" style="display: none"></span>
+
+                                <div class="item item_fold" style="">
+                                    <a href="javascript:void(0);"><span>展开更多</span><span> (余47集) </span><i
+                                            class="iconfont arrow_down"></i></a>
+                                </div>
+                                <div class="item item_fold" style="display: none">
+                                    <a href="javascript:void(0);" _stat="video:poster_tlelist_fold"><span>收起</span><i
+                                            class="iconfont arrow_up"></i></a>
+                                </div>
+
+                            </div>
+
+
+                            <a href="javascript:;" class="tip_download">
+                                <i class="icon_sm icon_dl_sm">
+                                </i>
+                                 <span class="icon_text"><i>下载客户端，</i><i>免费蓝光播放</i>
+                        </span>
+                                <i class="triangle_up triangle_up_wrap"><i class="triangle_up"></i></i>
+
+                                <div class="tip_download_pop"><!-- margin-left的值需要计算 -->
+                                    <div class="quick_pop_inner">
+                                        <div class="pop_info_content">
+                                            <div class="pop_client_txt">使用嗨果视频客户端播放</div>
+                                            <div class="pop_client_info">
+                                                <span class="info_item info_item_1">
+                                                    <i class="icon svg_icon_vipflat"></i>连续签到5天送VIP
+                                                </span>
+                                                <span class="info_item info_item_2">
+                                                    <i class="icon icon_lightning"></i>三倍流畅播放
+                                                </span>
+                                                <span class="info_item info_item_3"><i class="icon icon_hd">
+                                                    <i class="svg_icon" viewBox="0 0 20 20" width="20" height="20">
+                                                    </i></i>1080P蓝光画质
+                                                </span>
+                                                <span class="info_item info_item_4"><i class="icon icon_time_advance">
+                                                    <i class="svg_icon" viewBox="0 0 20 20" width="20" height="20">
+                                                    </i></i>新剧提前看
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+                <div class="_playsrc">
+
+
+                    <div class="result_source" r-notemplate="true" _r-cid="44" data-playsrc="qq" _r-component="playsrc">
+			<span class="_cur_playsrc">
+				<i class="icon_source icon_source_tencentvideo"></i>
+<span class="icon_text">嗨果视频
+
+</span>
+
+			</span>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+            <div class="result_item result_item_v" >
+                <div class="_infos">
+                    <div data-tabid="" style="" data-activetab="">
+                        <a href="#" class="figure result_figure"
+                           target="_blank" _stat="video:poster_v">
+                            <img src="../img/search_02.jpg" alt="楚乔传窦骁CUT">
+
+                            <span class="mark_v"><img src="../img/icon_yugao.png" alt="" ></span>
+
+
+                            <span class="figure_collect" _r-cid="46" title="加入看单" _r-component="c-follow"><i
+                                    class="iconfont icon_collect"></i><i class="iconfont icon_collected"></i></span>
+                        </a>
+
+                        <h2 class="result_title"><a href="#" target="_blank">楚乔传窦骁CUT<span class="sub">（普通话/原版/2017）</span><span class="type">电视剧</span></a></h2>
+                        <span class="result_score">6.9</span>
+                        <div class="result_info">
+
+                            <div class="info_item info_item_odd">
+                                <span class="label">导　演：</span>
+                                <span class="content"><a href="#" target="_blank">吴锦源</a></span>
+                            </div>
+
+
+                            <div class="info_item info_item_even">
+                                <span class="label">主　演：</span>
+                                <span class="content"><a href="#" target="_blank">窦骁</a></span>
+                            </div>
+
+
+                            <div class="info_item info_item_desc">
+                                <span class="label">简　介：</span>
+                                <span class="desc_text">《楚乔传》窦骁CUT合集，解锁燕洵世子的日常~
+                                    <a href="#" target="_blank">详细<i class="iconfont arrow_right"></i></a></span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="_playlist">
+
+
+                    <div r-notemplate="true" _r-cid="47" class="" _r-component="inline-series">
+
+
+                        <div data-id="1-3" data-playsrc="qq" style="">
+
+
+                            <div class="result_link_list cf" r-notemplate="true" _r-cid="48"
+                                 _r-component="inline-series-list">
+
+			    <span data-section="0" style="">
+
+                    <div class="item"><a href="#" target="_blank">《楚乔传》窦骁CUT07</a>
+
+                    </div>
+
+
+                    <div class="item"><a href="#" target="_blank">《楚乔传》窦骁CUT06</a>
+
+                    </div>
+
+
+                    <div class="item"><a href="#" target="_blank">《楚乔传》窦骁CUT05</a>
+
+                    </div>
+
+                </span>
+
+
+                            </div>
+
+
+                            <a href="javascript:;" class="tip_download">
+                                <i class="icon_sm icon_dl_sm">
+                                </i>
+                                 <span class="icon_text"><i>下载客户端，</i><i>免费蓝光播放</i>
+                        </span>
+                                <i class="triangle_up triangle_up_wrap"><i class="triangle_up"></i></i>
+
+                                <div class="tip_download_pop"><!-- margin-left的值需要计算 -->
+                                    <div class="quick_pop_inner">
+                                        <div class="pop_info_content">
+                                            <div class="pop_client_txt">使用嗨果视频客户端播放</div>
+                                            <div class="pop_client_info">
+                                                <span class="info_item info_item_1">
+                                                    <i class="icon svg_icon_vipflat"></i>连续签到5天送VIP
+                                                </span>
+                                                <span class="info_item info_item_2">
+                                                    <i class="icon icon_lightning"></i>三倍流畅播放
+                                                </span>
+                                                <span class="info_item info_item_3"><i class="icon icon_hd">
+                                                    <i class="svg_icon" viewBox="0 0 20 20" width="20" height="20">
+                                                    </i></i>1080P蓝光画质
+                                                </span>
+                                                <span class="info_item info_item_4"><i class="icon icon_time_advance">
+                                                    <i class="svg_icon" viewBox="0 0 20 20" width="20" height="20">
+                                                    </i></i>新剧提前看
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+                <div class="_playsrc">
+
+
+                    <div class="result_source" r-notemplate="true" _r-cid="50" data-playsrc="qq" _r-component="playsrc">
+			<span class="_cur_playsrc">
+				<i class="icon_source icon_source_tencentvideo"></i>
+<span class="icon_text">嗨果视频
+
+</span>
+
+			</span>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+            <div class="result_item result_item_v">
+                <div class="_infos">
+                    <div data-tabid="" style="" data-activetab="">
+                        <a href="#" class="figure result_figure"
+                           target="_blank" _stat="video:poster_v">
+                            <img src="../img/search_03.jpg" alt="楚乔传李沁CUT">
+
+                            <span class="mark_v"><img src="../img/icon_yugao.png" alt=""></span>
+
+
+                            <span class="figure_collect" _r-cid="52" title="加入看单" _r-component="c-follow"><i
+                                    class="iconfont icon_collect"></i><i class="iconfont icon_collected"></i></span>
+                        </a>
+
+                        <h2 class="result_title"><a href="#" target="_blank">楚乔传李沁CUT<span
+                                class="sub">（普通话/原版/2017）</span><span class="type">电视剧</span></a></h2>
+                        <span class="result_score">7.0</span>
+
+                        <div class="result_info">
+
+
+                            <div class="info_item info_item_odd">
+                                <span class="label">导　演：</span>
+                                <span class="content"><a href="#" target="_blank">吴锦源</a></span>
+                            </div>
+
+
+                            <div class="info_item info_item_even">
+                                <span class="label">主　演：</span>
+                                <span class="content"><a href="#" target="_blank">李沁</a></span>
+                            </div>
+
+
+                            <div class="info_item info_item_desc">
+                                <span class="label">简　介：</span>
+                                <span class="desc_text">《楚乔传》李沁CUT合集，承包所有的淳公举~~
+                                    <a href="#" target="_blank">详细<i class="iconfont arrow_right"></i></a></span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="_playlist">
+
+
+                    <div r-notemplate="true" _r-cid="53" class="" _r-component="inline-series">
+
+
+                        <div data-id="1-23" data-playsrc="qq" style="">
+
+
+                            <div class="result_link_list cf" r-notemplate="true" _r-cid="54"
+                                 _r-component="inline-series-list">
+
+			<span style="">
+
+
+					<div class="item"><a href="#" target="_blank">《楚乔传 》李沁cut23</a>
+
+                    </div>
+
+					<div class="item"><a href="#" target="_blank">《楚乔传 》李沁cut22</a>
+
+                    </div>
+
+					<div class="item"><a href="#" target="_blank">《楚乔传 》李沁cut21</a>
+
+                    </div>
+
+					<div class="item"><a href="#" target="_blank">《楚乔传 》李沁cut20</a>
+
+                    </div>
+
+					<div class="item"><a href="#" target="_blank">《楚乔传 》李沁cut19</a>
+
+                    </div>
+
+			</span>
+                                <span class="_series_list" style="display: none"></span>
+
+                                <div class="item item_fold" style="">
+                                    <a href="javascript:void(0);"><span>展开更多</span><span> (余18集) </span><i class="iconfont arrow_down"></i></a>
+                                </div>
+                                <div class="item item_fold" style="display: none">
+                                    <a href="javascript:void(0);" ><span>收起</span><i class="iconfont arrow_up"></i></a>
+                                </div>
+
+                            </div>
+
+
+                            <a href="javascript:;" class="tip_download">
+                                <i class="icon_sm icon_dl_sm">
+                                </i>
+                                 <span class="icon_text"><i>下载客户端，</i><i>免费蓝光播放</i>
+                        </span>
+                                <i class="triangle_up triangle_up_wrap"><i class="triangle_up"></i></i>
+
+                                <div class="tip_download_pop"><!-- margin-left的值需要计算 -->
+                                    <div class="quick_pop_inner">
+                                        <div class="pop_info_content">
+                                            <div class="pop_client_txt">使用嗨果视频客户端播放</div>
+                                            <div class="pop_client_info">
+                                                <span class="info_item info_item_1">
+                                                    <i class="icon svg_icon_vipflat"></i>连续签到5天送VIP
+                                                </span>
+                                                <span class="info_item info_item_2">
+                                                    <i class="icon icon_lightning"></i>三倍流畅播放
+                                                </span>
+                                                <span class="info_item info_item_3"><i class="icon icon_hd">
+                                                    <i class="svg_icon" viewBox="0 0 20 20" width="20" height="20">
+                                                    </i></i>1080P蓝光画质
+                                                </span>
+                                                <span class="info_item info_item_4"><i class="icon icon_time_advance">
+                                                    <i class="svg_icon" viewBox="0 0 20 20" width="20" height="20">
+                                                    </i></i>新剧提前看
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+                <div class="_playsrc">
+
+
+                    <div class="result_source" r-notemplate="true" _r-cid="56" data-playsrc="qq" _r-component="playsrc">
+			<span class="_cur_playsrc">
+				<i class="icon_source icon_source_tencentvideo"></i>
+<span class="icon_text">嗨果视频
+
+</span>
+
+			</span>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+            <div class="result_item result_item_h _quickopen">
+                <a href="#" class="figure result_figure" target="_blank">
+                    <img src="../img/search_05.jpg" alt="《楚乔传》为拍第二部删结局 真正结局有图有真相">
+
+                    <span class="figure_caption"><span class="figure_info">0:01:47</span></span>
+                    <span class="mark_quickplay"></span></a>
+
+                <h2 class="result_title"><a href="#" target="_blank">《<em class="hl">楚乔传</em>》为拍第二部删结局 真正结局有图有真相</a>
+                </h2>
+
+                <div class="result_info">
+                    <div class="info_line">
+
+                        <div class="info_item info_item_odd">
+                            <span class="label">时　间：</span>
+                            <span class="content">2017-08-12</span>
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="info_line">
+                        <div class="info_item info_item_odd">
+
+                            <span class="label">主　题：</span>
+                            <span class="content" title="女星这些美照堪比大片">女星这些美照堪比大片</span>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="result_item result_item_h _quickopen">
+                <a href="#" class="figure result_figure" target="_blank">
+                    <img src="../img/search_06.jpg" alt="《楚乔传》赵丽颖配音现身 现场配音惊呆何炅">
+
+                    <span class="figure_caption"><span class="figure_info">0:01:35</span></span>
+
+
+                    <span class="mark_quickplay"></span></a>
+
+                <h2 class="result_title"><a href="#" target="_blank">《<em class="hl">楚乔传</em>》赵丽颖配音现身 现场配音惊呆何炅</a>
+                </h2>
+
+                <div class="result_info">
+                    <div class="info_line">
+
+                        <div class="info_item info_item_odd">
+                            <span class="label">时　间：</span>
+                            <span class="content">2017-08-13</span>
+                        </div>
+
+
+                    </div>
+
+
+                    <!--
+
+                            <div class="info_line">
+                                <div class="info_item">
+
+                                        <span class="label">主　题：</span>
+                                        <span class="content" title="最新最全资讯都在这了">最新最全资讯都在这了</span>
+
+                                </div>
+                            </div>
+
+                     -->
+
+                    <div class="info_line">
+                        <div class="info_item info_item_odd">
+
+                            <span class="label">主　题：</span>
+                            <span class="content" title="最新最全资讯都在这了">最新最全资讯都在这了</span>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="result_item result_item_h _quickopen">
+                <a href="#" class="figure result_figure" target="_blank">
+                    <img src="../img/search_05.jpg" alt="《楚乔传》星玥夫妇配上刘亦菲的歌，简直不能再好听了">
+
+                    <span class="figure_caption"><span class="figure_info">0:04:01</span></span>
+
+
+                    <span class="mark_quickplay"></span></a>
+
+                <h2 class="result_title"><a href="#" target="_blank">《<em
+                        class="hl">楚乔传</em>》星玥夫妇配上刘亦菲的歌，简直不能再好听了</a></h2>
+
+                <div class="result_info">
+                    <div class="info_line">
+
+                        <div class="info_item info_item_odd">
+                            <span class="label">时　间：</span>
+                            <span class="content">2017-08-15</span>
+                        </div>
+
+
+                    </div>
+
+                    <div class="info_line">
+
+
+                    </div>
+
+
+                    <div class="info_item info_item_desc">
+                        <span class="label">简　介：</span>
+                        <span class="desc_text" title="《楚乔传》星玥夫妇配上刘亦菲的歌，简直不能再好听了">《楚乔传》星玥夫妇配上刘亦菲的歌，简直不能再好听了</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="result_item result_item_h _quickopen">
+                <a href="#" class="figure result_figure" target="_blank">
+                    <img src="../img/search_06.jpg" alt="赵丽颖张碧晨现场演唱《楚乔传》主题曲，颖宝唱得真好听">
+
+                    <span class="figure_caption"><span class="figure_info">0:04:14</span></span>
+
+
+                    <span class="mark_quickplay"></span></a>
+
+                <h2 class="result_title"><a href="#" target="_blank">赵丽颖张碧晨现场演唱《<em class="hl">楚乔传</em>》主题曲，颖宝唱得真好听</a>
+                </h2>
+
+                <div class="result_info">
+                    <div class="info_line">
+
+                        <div class="info_item info_item_odd">
+                            <span class="label">时　间：</span>
+                            <span class="content">2017-08-13</span>
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="info_line">
+                        <div class="info_item info_item_odd">
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="result_item result_item_h _quickopen">
+                <a href="#" class="figure result_figure" target="_blank">
+                    <img src="../img/search_07.jpg" alt="楚乔传幕后花絮：宇文怀燕洵秒变段子手，赵丽颖林更新笑倒了">
+
+                    <span class="figure_caption"><span class="figure_info">0:01:43</span></span>
+
+
+                    <span class="mark_quickplay"></span></a>
+
+                <h2 class="result_title"><a href="#" target="_blank"><em class="hl">楚乔传</em>幕后花絮：宇文怀燕洵秒变段子手，赵丽颖林更新笑倒了</a>
+                </h2>
+
+                <div class="result_info">
+                    <div class="info_line">
+
+                        <div class="info_item info_item_odd">
+                            <span class="label">时　间：</span>
+                            <span class="content">2017-08-12</span>
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="info_line">
+                        <div class="info_item info_item_odd">
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="result_item result_item_h _quickopen">
+                <a href="#" class="figure result_figure" target="_blank">
+                    <img src="../img/search_05.jpg" alt="楚乔传星儿换上新装出场把宇文玥和月七都看呆了好美">
+
+                    <span class="figure_caption"><span class="figure_info">0:00:15</span></span>
+
+
+                    <span class="mark_quickplay"></span></a>
+
+                <h2 class="result_title"><a href="#" target="_blank"><em
+                        class="hl">楚乔传</em>星儿换上新装出场把宇文玥和月七都看呆了好美</a></h2>
+
+                <div class="result_info">
+                    <div class="info_line">
+
+                        <div class="info_item info_item_odd">
+                            <span class="label">时　间：</span>
+                            <span class="content">2017-08-10</span>
+                        </div>
+
+
+                    </div>
+
+                    <div class="info_line">
+                        <div class="info_item info_item_odd">
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="result_item result_item_h _quickopen">
+                <a href="#" class="figure result_figure" target="_blank">
+                    <img src="../img/search_06.jpg" alt="《楚乔传2》提前看，星儿冰湖救宇文玥上岸">
+
+                    <span class="figure_caption"><span class="figure_info">0:04:43</span></span>
+
+
+                    <span class="mark_quickplay"></span></a>
+
+                <h2 class="result_title"><a href="#" target="_blank">《<em class="hl">楚乔传</em>2》提前看，星儿冰湖救宇文玥上岸</a>
+                </h2>
+
+                <div class="result_info">
+                    <div class="info_line">
+
+                        <div class="info_item info_item_odd">
+                            <span class="label">时　间：</span>
+                            <span class="content">2017-08-02</span>
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="info_line">
+                        <!-- 给我一个对应的原电视剧的名称，changed -->
+                        <div class="info_item info_item_odd">
+                            <span class="label">电视剧：</span>
+                            <span class="content" title="剧搞笑之楚乔传">剧搞笑之<em class="hl">楚乔传</em></span>
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="info_item info_item_desc">
+                        <span class="label">简　介：</span>
+                        <span class="desc_text" title="在这美丽的冰雪上面，看着颖宝抱着重伤的林更新哭得撕心裂肺，太虐心了，心疼我们颖宝三秒">在这美丽的冰雪上面，看着颖宝抱着重伤的林更新哭得撕心裂肺，太虐心了，心疼我们颖宝三秒</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="result_item result_item_h _quickopen">
+                <a href="#" class="figure result_figure" target="_blank">
+                    <img src="../img/search_05.jpg"
+                         alt="《楚乔传2》演员确定，赵丽颖发文疑默认主角不变，12月份开拍？">
+
+                    <span class="figure_caption"><span class="figure_info">0:01:47</span></span>
+
+
+                    <span class="mark_quickplay"></span></a>
+
+                <h2 class="result_title"<a href="#" target="_blank">《<em class="hl">楚乔传</em>2》演员确定，赵丽颖发文疑默认主角不变，12月份开拍？</a>
+                </h2>
+
+                <div class="result_info">
+                    <div class="info_line">
+
+                        <div class="info_item info_item_odd">
+                            <span class="label">时　间：</span>
+                            <span class="content">2017-08-14</span>
+                        </div>
+
+
+                    </div>
+
+                    <div class="info_line">
+                        <div class="info_item info_item_odd">
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="result_item result_item_h _quickopen">
+                <a href="#" class="figure result_figure" target="_blank">
+                    <img src="../img/search_07.jpg" alt="《楚乔传2》萧策为爱成全：愿以江山为嫁，让你与他一世繁花">
+
+                    <span class="figure_caption"><span class="figure_info">0:02:24</span></span>
+
+
+                    <span class="mark_quickplay"></span></a>
+
+                <h2 class="result_title"><a href="#" target="_blank">《<em class="hl">楚乔传</em>2》萧策为爱成全：愿以江山为嫁，让你与他一世繁花</a>
+                </h2>
+
+                <div class="result_info">
+                    <div class="info_line">
+
+                        <div class="info_item info_item_odd">
+                            <span class="label">时　间：</span>
+                            <span class="content">2017-08-09</span>
+                        </div>
+
+
+                    </div>
+
+                    <div class="info_line">
+
+
+                    </div>
+
+
+                    <div class="info_item info_item_desc">
+                        <span class="label">简　介：</span>
+                        <span class="desc_text" title="《楚乔传2》萧策为爱成全：愿以江山为嫁，让你与他一世繁花">《楚乔传2》萧策为爱成全：愿以江山为嫁，让你与他一世繁花</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="result_item result_item_h _quickopen">
+                <a href="#" class="figure result_figure" target="_blank">
+                    <img src="../img/search_05.jpg" alt="《楚乔传》长安五俊在现场玩这么嗨，赵丽颖快来看呀">
+
+                    <span class="figure_caption"><span class="figure_info">0:00:52</span></span>
+
+
+                    <span class="mark_quickplay"></span></a>
+
+                <h2 class="result_title"><a href="#" target="_blank">《<em
+                        class="hl">楚乔传</em>》长安五俊在现场玩这么嗨，赵丽颖快来看呀</a></h2>
+
+                <div class="result_info">
+                    <div class="info_line">
+
+                        <div class="info_item info_item_odd">
+                            <span class="label">时　间：</span>
+                            <span class="content">2017-08-10</span>
+                        </div>
+
+
+                    </div>
+
+                    <div class="info_line">
+
+                    </div>
+
+                    <div class="info_item info_item_desc">
+                        <span class="label">简　介：</span>
+                        <span class="desc_text" title="《楚乔传》长安五俊在现场玩这么嗨，赵丽颖快来看呀">《楚乔传》长安五俊在现场玩这么嗨，赵丽颖快来看呀</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="result_item result_item_h _quickopen">
+                <a href="#" class="figure result_figure" target="_blank">
+                    <img src="../img/search_06.jpg" alt="《楚乔传》宇文玥：你是星，跌入我梦，此生不换">
+
+                    <span class="figure_caption"><span class="figure_info">0:03:48</span></span>
+
+                    <span class="mark_quickplay"></span></a>
+
+                <h2 class="result_title"><a href="#" target="_blank">《<em class="hl">楚乔传</em>》宇文玥：你是星，跌入我梦，此生不换</a>
+                </h2>
+
+                <div class="result_info">
+                    <div class="info_line">
+
+                        <div class="info_item info_item_odd">
+                            <span class="label">时　间：</span>
+                            <span class="content">2017-08-12</span>
+                        </div>
+
+
+                    </div>
+
+                    <div class="info_line">
+
+
+                    </div>
+
+
+                    <div class="info_item info_item_desc">
+                        <span class="label">简　介：</span>
+                        <span class="desc_text" title="《楚乔传》宇文玥：你是星，跌入我梦，此生不换">《楚乔传》宇文玥：你是星，跌入我梦，此生不换</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="result_item result_item_h _quickopen">
+                <a href="#" class="figure result_figure" target="_blank">
+                    <img src="../img/search_05.jpg" alt="李沁无缘《楚乔传》第二部，元淳一角将由她接替, 网友放心了">
+
+                    <span class="figure_caption"><span class="figure_info">0:02:00</span></span>
+
+
+                    <span class="mark_quickplay"></span></a>
+
+                <h2 class="result_title"><a href="#" target="_blank">李沁无缘《<em class="hl">楚乔传</em>》第二部，元淳一角将由她接替,
+                    网友放心了</a></h2>
+
+                <div class="result_info">
+                    <div class="info_line">
+
+                        <div class="info_item info_item_odd">
+                            <span class="label">时　间：</span>
+                            <span class="content">2017-08-11</span>
+                        </div>
+
+
+                    </div>
+
+                    <div class="info_line">
+
+
+                    </div>
+
+
+                    <div class="info_item info_item_desc">
+                        <span class="label">简　介：</span>
+                        <span class="desc_text" title="李沁">李沁</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="result_item result_item_h _quickopen">
+                <a href="#" class="figure result_figure" target="_blank">
+                    <img src="../img/search_07.jpg" alt="《楚乔传2》取代赵丽颖？Baby回应这么说">
+
+                    <span class="figure_caption"><span class="figure_info">0:01:05</span></span>
+
+
+                    <span class="mark_quickplay"></span></a>
+
+                <h2 class="result_title"><a href="#" target="_blank">《<em class="hl">楚乔传</em>2》取代赵丽颖？Baby回应这么说</a>
+                </h2>
+
+                <div class="result_info">
+                    <div class="info_line">
+
+                        <div class="info_item info_item_odd">
+                            <span class="label">时　间：</span>
+                            <span class="content">2017-08-10</span>
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="info_line">
+                        <div class="info_item info_item_odd">
+
+                            <span class="label">节　目：</span>
+                            <span class="content" title="Big磅来了">Big磅来了</span>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="result_relative" r-notemplate="true">
+                <div class="mod_hd">
+                    <div class="mod_title">
+                        <h3 class="title">相关搜索</h3>
+                    </div>
+                </div>
+                <div class="mod_bd">
+                    <ul class="relative_list clearfix">
+
+                        <li class="list_item"><a href="#" class="txt" title="双世宠妃">双世宠妃</a></li>
+
+                        <li class="list_item"><a href="#" class="txt" title="芭比娃娃">芭比娃娃</a></li>
+
+                        <li class="list_item"><a href="#" class="txt" title="楚乔传未播片场花絮">楚乔传未播片场花絮</a></li>
+
+                        <li class="list_item"><a href="#" class="txt" title="赵丽颖">赵丽颖</a></li>
+
+                        <li class="list_item"><a href="#" class="txt" title="楚乔传花絮">楚乔传花絮</a></li>
+
+                        <li class="list_item"><a href="#" class="txt" title="楚乔传大结局预告片">楚乔传大结局预告片</a></li>
+
+                        <li class="list_item"><a href="#" class="txt" title="楚乔传2预告">楚乔传2预告</a>
+                        </li>
+
+                        <li class="list_item"><a href="#" class="txt" title="林更新">林更新</a></li>
+
+                        <li class="list_item"><a href="#" class="txt" title="邢昭林">邢昭林</a></li>
+
+                        <li class="list_item"><a href="#" class="txt" title="湖南卫视台">湖南卫视台</a></li>
+
+                        <li class="list_item"><a href="#" class="txt" title="楚乔传戏吻">楚乔传戏吻</a></li>
+
+                        <li class="list_item"><a href="#" class="txt" title="赵丽颖电视剧">赵丽颖电视剧</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <!-- pages num-->
+            <div class="mod_pages" >
+                <a href="javascript:;" class="page_prev disabled" _stat="pages_index:paging_prev">上一页</a>
+	<span class="_items">
+
+            <a href="javascript:;" class="page_num current" data-page="1" _stat="pages_index:paging_page_1">1</a>
+
+            <a href="javascript:;" class="page_num" data-page="2" >2</a>
+
+            <a href="javascript:;" class="page_num" data-page="3" >3</a>
+
+            <a href="javascript:;" class="page_num" data-page="4" >4</a>
+
+            <a href="javascript:;" class="page_num" data-page="5" >5</a>
+
+            <a href="javascript:;" class="page_num" data-page="6" >6</a>
+
+            <a href="javascript:;" class="page_num" data-page="7" >7</a>
+
+
+                <a href="javascript:;" class="page_ellipsis">...</a>
+
+            <a href="javascript:;" class="page_num" >20</a>
+
+</span>
+                <a href="javascript:;" class="page_next" >下一页</a>
+            </div>
+
+        </div>
+        <!-- 右侧部分-->
+        <div class="wrapper_side">
+            <!-- 明星-->
+            <div class="mod_box mod_box_people">
+                <div class="mod_hd">
+                    <div class="mod_title">
+                        <h3 class="title">相关明星</h3>
+                    </div>
+                </div>
+                <div class="mod_bd">
+                    <div class="mod_people cf">
+
+                        <a href="#" target="_blank" class="item_people" _stat="stars:list">
+                            <img src="../img/person_01.jpg" alt="赵丽颖"
+                                 class="people_avatar">
+                            <span class="people_name">赵丽颖</span>
+                        </a>
+
+
+                        <a href="#" target="_blank" class="item_people" _stat="stars:list">
+                            <img src="../img/person_02.jpg" alt="林更新"
+                                 class="people_avatar">
+                            <span class="people_name">林更新</span>
+                        </a>
+
+
+                        <a href="#" target="_blank" class="item_people" _stat="stars:list">
+                            <img src="../img/person_03.jpg" alt="窦骁"
+                                 class="people_avatar">
+                            <span class="people_name">窦骁</span>
+                        </a>
+
+
+                        <a href="#" target="_blank" class="item_people" >
+                            <img src="../img/person_04.jpg" alt="李沁" class="people_avatar">
+                            <span class="people_name">李沁</span>
+                        </a>
+
+
+                        <a href="#" target="_blank" class="item_people" >
+                            <img src="../img/person_01.jpg" alt="邓伦" class="people_avatar">
+                            <span class="people_name">邓伦</span>
+                        </a>
+
+
+                        <a href="#" target="_blank" class="item_people" >
+                            <img src="../img/person_02.jpg" alt="王彦霖" class="people_avatar">
+                            <span class="people_name">王彦霖</span>
+                        </a>
+
+
+                    </div>
+                </div>
+            </div>
+            <!-- 影评-->
+            <div class="mod_box mod_box_reviews">
+                <div class="mod_hd">
+                    <div class="mod_title">
+                        <h3 class="title">
+                            <span class="name">《楚乔传》</span>影评
+                        </h3>
+                    </div>
+                </div>
+                <div class="mod_bd">
+                    <div class="mod_reviews">
+                        <a href="#" target="_blank" class="review_item" >
+                            <div class="review_author">
+                                <img class="author_avatar" src="../img/person_ying.jpg" alt="天意茫茫">
+                                <span class="author">天意茫茫</span>
+                            </div>
+                            <div class="review_content">
+                                上天对他，竟从未仁慈文/天意茫茫热播剧《楚乔传》更新至64集，已将近尾声，主人公的结局也见分晓。第63集，燕洵世子的一句话深深打动了我，觉得追了那么久，也该总结一下观剧感吧，要不也白看了。在63集，坏心眼的程鸢故意激将燕洵，说部下人言燕洵为了一个女子放弃战略部署，将来必走老侯爷之路，不得好死。燕洵淡淡丢下一句：生亦不得好生，还计较什么好死不好死。这句话震撼到了我，感觉燕洵这个人物的悲情、哀痛已到了无以复加的地步。而楚乔，...
+                            </div>
+                        </a>
+                        <a href="#" class="review_more" target="_blank" >还有 131 条深度解读，去看看 &gt;</a>
+
+                    </div>
+                </div>
+            </div>
+            <!-- 原声-->
+            <div class="mod_box mod_box_reviews">
+                <div class="mod_hd">
+                    <div class="mod_title">
+                        <h3 class="title">
+                            <span class="name">《楚乔传》</span>原声
+
+                        </h3>
+                    </div>
+                </div>
+                <div class="mod_bd">
+                    <div class="mod_music">
+                        <div class="item item_odd" r-notemplate="true" _r-cid="65" _r-component="music-item">
+                            <span class="name" title="望">望</span>
+                            <i class="icon_music_now"></i>
+
+                            <a href="#" class="btn_music_mv" title="播放MV" target="_blank">
+                                <span class="mark_mv">MV</span>
+                            </a>
+                            <a href="javascript:;" class="btn_music_play" title="播放音乐" >
+                                <i class="iconfont icon_play">ဒ</i><i class="iconfont icon_pause">တ</i>
+                            </a>
+                            <a href="javascript:;" class="btn_music_download" title="下载音乐">
+                                <i class="icon_sm icon_dl_sm">
+                                </i>
+                            </a>
+                        </div>
+
+
+                        <a class="item_more" href="javascript:void(0);" title="下载音乐">
+                            <i class="iconfont icon_qqmusic"></i><span class="icon_text">下载QQ音乐，畅听更多影视原声（共1首）</span></a>
+                    </div>
+                </div>
+            </div>
+            <!-- 热搜-->
+            <div class="mod_box mod_box_hotlist" id="hotlist" >
+                <div class="mod_hd">
+                    <div class="mod_title">
+                        <h3 class="title">热搜榜单</h3>
+
+                        <div class="mod_tools">
+                            <a href="#" class="item_more" target="_blank" >更多
+                                <i class="iconfont arrow_right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mod_bd">
+                    <div class="mod_hotlist">
+                        <ol class="hotlist">
+                            <li class="item item_1">
+                                <a href="#">
+                                    <span class="num">1</span>
+                                    <span class="name">双世宠妃</span>
+
+                                    <i class="icon_exclusive_s"></i>
+
+                                    <i class="iconfont icon_rise"></i>
+                                </a>
+                            </li>
+
+                            <li class="item item_2">
+                                <a href="#">
+                                    <span class="num">2</span>
+                                    <span class="name">战狼2</span>
+
+                                    <i class="iconfont icon_decline"></i>
+                                </a>
+                            </li>
+
+                            <li class="item item_3">
+                                <a href="#">
+                                    <span class="num">3</span>
+                                    <span class="name">无心法师2</span>
+
+                                    <i class="iconfont icon_rise">ဇ</i>
+                                </a>
+                            </li>
+
+                            <li class="item item_4">
+                                <a href="#">
+                                    <span class="num">4</span>
+                                    <span class="name">浪花一朵朵</span>
+
+                                    <i class="iconfont icon_decline"></i>
+                                </a>
+                            </li>
+
+                            <li class="item item_5">
+                                <a href="#">
+                                    <span class="num">5</span>
+                                    <span class="name">我们相爱吧之爱有天意 </span>
+
+                                    <i class="icon_exclusive_s"></i>
+
+                                    <i class="iconfont icon_hold"></i>
+                                </a>
+                            </li>
+
+                            <li class="item item_6">
+                                <a href="#">
+                                    <span class="num">6</span>
+                                    <span class="name">鬼吹灯之黄皮子坟</span>
+
+                                    <i class="icon_exclusive_s"></i>
+
+                                    <i class="iconfont icon_rise"></i>
+                                </a>
+                            </li>
+
+                            <li class="item item_7">
+                                <a href="#">
+                                    <span class="num">7</span>
+                                    <span class="name">《无心法师》第一季饭制花絮</span>
+
+                                    <i class="iconfont icon_rise"></i>
+                                </a>
+                            </li>
+
+                            <li class="item item_8">
+                                <a href="#">
+                                    <span class="num">8</span>
+                                    <span class="name">我的前半生</span>
+
+                                    <i class="iconfont icon_hold"></i>
+                                </a>
+                            </li>
+
+                            <li class="item item_9">
+                                <a href="#">
+                                    <span class="num">9</span>
+                                    <span class="name">极限挑战 第3季</span>
+
+                                    <i class="iconfont icon_decline"></i>
+                                </a>
+                            </li>
+
+                            <li class="item item_10">
+                                <a href="#">
+                                    <span class="num">10</span>
+                                    <span class="name">王者荣耀百里守约</span>
+                                    <i class="iconfont icon_hold"></i>
+                                </a>
+                            </li>
+
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+
+    </div>
+</div>
+<!--footer-->
+<div class="site_footer">
+    <div class="footer_inner">
+        <div class="mod_footer">
+            <div class="footermenu">
+                <a href="javascript" rel="nofollow" target="_blank">关于嗨果</a> | <a href="javascript" rel="nofollow"
+                                                                                  target="_blank">About Tencent</a> | <a
+                    href="javascript" rel="nofollow" target="_blank">服务条款</a> | <a href="javascript" rel="nofollow"
+                                                                                   target="_blank">广告服务</a> | <a
+                    href="http://hr.tencent.com/" rel="nofollow" target="_blank">嗨果招聘</a> | <a href="javascript"
+                                                                                               rel="nofollow"
+                                                                                               target="_blank">客服中心</a>
+                | <a href="javascript" rel="nofollow" target="_blank">网站导航</a>
+            </div>
+            <div class="copyrighten">Copyright © 1998 - <span><script>document.write(new Date().getFullYear());</script>2017</span>
+                Tencent. <a target="_blank" href="javascript">All Rights Reserved.</a></div>
+            <div class="copyrightzh">嗨果公司 <a target="_blank" href="javascript" rel="nofollow">版权所有</a> <a
+                    target="_blank" href="javascript" rel="nofollow">嗨果网络文化经营许可证</a></div>
+        </div>
+    </div>
+</div>
+<script>
+    $(function(){
+        $(".filter_item_more").click(function(){
+            if($(".mod_filter_box").hasClass("none")){
+                $(".mod_filter_box ").removeClass("none");
+                $(".arrow_up").show();
+                $(".arrow_down").hide();
+            }else{
+                $(".mod_filter_box ").addClass("none");
+                $(".arrow_down").show();
+                $(".arrow_up").hide();
+            }
+
+        })
+        //收藏
+        // $(".figure_collect").hover(function(){
+        //     $(this).find(".icon_collect").hide()
+        //     $(this).find(".icon_collected").show()
+        // })
+        function backTop(){
+            var Domtop = $(".mod_box_hotlist").offset().top-90;
+            var top = $(window).scrollTop();;
+            if(top>Domtop){
+                $(".mod_box_hotlist").addClass("mod_box_side_fixed");
+            }
+            $(window).scroll(function(){
+                top = $(this).scrollTop();
+                if(top>Domtop){
+                    $(".mod_box_hotlist").addClass("mod_box_side_fixed");
+                }else{
+                    $(".mod_box_hotlist").removeClass("mod_box_side_fixed");
+                }
+            });
+            $("#backTop").click(function(){
+                $("html,body").animate({"scrollTop":0},300);
+            });
+//            if(top>150){
+//                $(".site_channel_top .site_head").css("position","fixed");
+//                $(".site_channel_top .site_head").css({
+//                    backgroundColor:"rgba(255,255,255,.9)","box-shadow":"0 2px 6px rgba(0,0,0,.3)"
+//                })
+//            }
+        }
+        backTop();
+        $(window).scroll(function(){
+            if( $(window).scrollTop() > 150){
+                $("#toTop").show()
+                $(".site_channel_top .site_head").css("position","fixed")
+                $(".site_channel_top .site_head").css({
+                    backgroundColor:"rgba(255,255,255,.9)","box-shadow":"0 2px 6px rgba(0,0,0,.3)"
+                })
+                $(".mod_search").addClass("top_mod_search")
+                $(".site_channel").show()
+                $(".mod_quick").addClass("mod_quick_d")
+            }else{
+                $("#toTop").hide()
+                $(".site_channel_top .site_head").css("position","absolute")
+                $(".site_channel_top .site_head").css({
+                    backgroundColor:"rgba(0,0,0,.0)","box-shadow":"0 0 0 rgba(0,0,0,.0  )"
+                })
+                $(".mod_search").removeClass("top_mod_search")
+                $(".site_channel").hide()
+                $(".mod_quick").removeClass("mod_quick_d")
+            }
+        })
+    })
+</script>
+</body>
+</html>
